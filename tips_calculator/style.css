@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: linear-gradient(to right, #401a12, #6e1a0a);
+  font-family: 'Open Sans', sans-serif;
+}
+
+#container-block {
+    width: 31rem;
+    height: 40rem;
+    margin: 100px auto;
+    border-radius: 14px;
+    background-color: #ffffff;
+}
+.body-calculator {
+  margin: 7%
+  ;
+}
+.name-block {
+  text-align: center;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 14px 14px 0 0;
+  padding: 15px 20px;
+  border-bottom-color: #D7D7D7;
+  font-size: 21px;
+  font-weight: 600;
+}
+
+form button, .modal-btn button{
+  display: block;
+  background: #d02229;
+  color: white;
+  padding: 1rem 2.5rem;
+  font-weight: 600;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin: 1.5rem auto;
+  cursor: pointer;
+  transition: all .5s ease;
+}
+ input:focus, select:focus{
+outline: none;
+ }
+form button:hover {
+  background: #ad153a;
+}
+form button:active {
+background-color: #ad153a;
+}
+.form-group {
+      display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+.form-group:not(.label-after) {
+    flex-direction: column;
+}
+#percentService, input {
+  padding: 8px 10px;
+  color: #555;
+  border: 1px solid #D7D7D7;
+  box-shadow: none;
+  font-size: 14px;
+}
+#percentService {
+  border-radius: 5px;
+}
+
+#notice-info {
+display: none;
+position: absolute;
+}
+#result {
+  display: none;
+}
+.info {
+background-color: #ffffff;
+width: 300px;
+height: 200px;
+text-align: center;
+}
+#result {
+ text-align: center;
+  font-size: 30px;
+}
+span#tip, span#each {
+      margin: 0 10px;
+}
+h4.row-name {
+  margin: 0;
+}
